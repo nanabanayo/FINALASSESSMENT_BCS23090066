@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileFinal.MainPage"
+             Title="Vehicle Tracking System">
+
+    <VerticalStackLayout Spacing="25" Padding="30" VerticalOptions="Center">
+
+        <Label Text="Welcome to Trip Tracking Page" 
+               FontSize="26" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center" 
+               HorizontalTextAlignment="Center" />
+
+        <Label Text="Click on the button to track the trip" 
+               FontSize="16" 
+               HorizontalOptions="Center" />
+
+        <Button Text="START TRACKING" 
+                Clicked="OnStartTripClicked" 
+                HeightRequest="60" 
+                BackgroundColor="#2196F3" 
+                TextColor="White"
+                CornerRadius="10" />
+
+    </VerticalStackLayout>
+</ContentPage>
